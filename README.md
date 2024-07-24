@@ -63,8 +63,17 @@ Caused by: java.lang.UnsupportedClassVersionError: org/openjdk/nashorn/api/scrip
 ### Dockerで実施(未着手)
 
 
-## 各種機能
-* 
+## 特徴
+
+### 🙆
+* 各テーブル、及びそのER図をサイトとして一覧できる。
+* Anomaliesで不整合なテーブルを検出できる。
+* Orphan Tablesで他テーブルとのRelationがないものを検出できる。
+* Searchでテーブルレベル、テーブル内のカラムレベルの検索が可能。
+
+### 🙅
+* 各テーブル・カラムに対するコメントの記載や、テーブルをカテゴライズなどのカスタマイズがしにくい？
+* index.htmlを参照するためには、github pagesなどを使用する必要がある。ただし、github pagesはpublicでないとサイトを公開できない。Private公開&内部でのみサイトを公開するためには、Github Enterpriseを使用する必要がある？
 
 
 ## 参考文献`
@@ -77,3 +86,4 @@ Caused by: java.lang.UnsupportedClassVersionError: org/openjdk/nashorn/api/scrip
 * (SchemaSpyでデータベースのドキュメントを生成してみた)[https://dev.classmethod.jp/articles/schemaspy-doc/]
 * (docker compose 上で SchemaSpy が動かないのを直す (MySQL 8, Apple M1 Mac))[https://qiita.com/mikankari/items/785cb00d8b7b1f563f13]
 * (SchemaSpyを使ってER図を自動で作る)[https://zenn.dev/politive/articles/3efb08d5cafc63#%E6%A6%82%E8%A6%81]
+* (SchemaSpyを使ってデータベースの中身をまとめたかった)[https://qiita.com/kazuyaseo/items/4dc76d4d2847f009c3bb]
