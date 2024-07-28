@@ -38,7 +38,7 @@ java -jar ./schemaspy-6.2.4.jar \
 ```
 
 ### B: Configファイルを作成 => コマンドでconfigファイルを参照=>outputファイル作成(×: エラー解決できず、index.htmlが生成されない)
-* `schemaspy.properties`で設定情報を記載=>`java -jar ./schemaspy-6.2.4.jar \ -configFile schemaspy.properties -vizjs`を実行
+* `schemaspy.properties`で設定情報を記載=>`java -jar ./schemaspy-6.2.4.jar \ -configFile schemaspy.properties`を実行
     ```bash
     //schemaspy.properties
     schemaspy.t=mysql
